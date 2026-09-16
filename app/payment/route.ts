@@ -446,7 +446,7 @@ export async function POST(
               first_name:
                 user.user_metadata
                   ?.first_name ??
-                "LangTalk",
+                "LWA",
 
               last_name:
                 user.user_metadata

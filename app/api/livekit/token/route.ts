@@ -43,8 +43,8 @@ export async function POST(request: Request) {
       return NextResponse.json(
         {
           error:
-            "LangTalk calls are not available yet.",
-          code: "LANGTALK_NOT_LAUNCHED",
+            "LWA calls are not available yet.",
+          code: "LWA_NOT_LAUNCHED",
           launchDate: "2026-09-24",
         },
         { status: 403 }
@@ -59,7 +59,7 @@ export async function POST(request: Request) {
     const roomName = body.roomName?.trim();
 
     const userName =
-      body.userName?.trim() || "LangTalk User";
+      body.userName?.trim() || "LWA User";
 
     if (!roomName) {
       return NextResponse.json(

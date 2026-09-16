@@ -300,7 +300,7 @@ export default function Dashboard({
 
   useEffect(() => {
     /*
-      لا تشغل Rematch قبل إطلاق LangTalk.
+      لا تشغل Rematch قبل إطلاق LWA.
     */
     if (isPreLaunch) {
       return;
@@ -525,7 +525,7 @@ export default function Dashboard({
             href="/"
             className="text-2xl font-black tracking-tight text-[#10231f]"
           >
-            LangTalk
+            LWA
             <span className="text-blue-600">
               .
             </span>
@@ -591,8 +591,8 @@ export default function Dashboard({
             <h1 className="max-w-3xl text-5xl font-black leading-[0.98] tracking-[-0.04em] text-[#10231f] md:text-7xl">
               {isPreLaunch
                 ? isArabic
-                  ? "LangTalk يبدأ في 24 سبتمبر"
-                  : "LangTalk launches on September 24"
+                  ? "LWA يبدأ في 24 سبتمبر"
+                  : "LWA launches on September 24"
                 : isArabic
                   ? "جاهز لمحادثة جديدة؟"
                   : "Ready for a new conversation?"}
@@ -601,8 +601,8 @@ export default function Dashboard({
             <p className="mt-7 max-w-2xl text-lg leading-8 text-gray-600 md:text-xl">
               {isPreLaunch
                 ? isArabic
-                  ? "انتظر حتى 24/9/2026 — سنبدأ مكالمات LangTalk في 24 سبتمبر."
-                  : "Please wait until September 24, 2026 — LangTalk calls will start on September 24."
+                  ? "انتظر حتى 24/9/2026 — سنبدأ مكالمات LWA في 24 سبتمبر."
+                  : "Please wait until September 24, 2026 — LWA calls will start on September 24."
                 : isArabic
                   ? "تحدث بحرية مع متعلم آخر للغتك المستهدفة لمدة سبع دقائق، بدون اختيار شريك يدويًا."
                   : "Speak freely with another learner of your target language for seven minutes, without manually choosing a partner."}
@@ -628,8 +628,8 @@ export default function Dashboard({
 
                     <p className="mt-2 text-sm leading-6 text-amber-800">
                       {isArabic
-                        ? "سنبدأ مكالمات LangTalk في 24 سبتمبر. يمكنك حاليًا مراجعة إعدادات حسابك."
-                        : "LangTalk calls will start on September 24. You can review your account settings meanwhile."}
+                        ? "سنبدأ مكالمات LWA في 24 سبتمبر. يمكنك حاليًا مراجعة إعدادات حسابك."
+                        : "LWA calls will start on September 24. You can review your account settings meanwhile."}
                     </p>
                   </div>
                 </div>
@@ -682,8 +682,8 @@ export default function Dashboard({
 
                     <p className="mt-2 text-sm leading-6 text-gray-500">
                       {isArabic
-                        ? "يبحث LangTalk تلقائيًا عن متعلم مناسب لك. لا تحتاج إلى اختيار أي شخص."
-                        : "LangTalk is automatically looking for a suitable learner. You don't need to choose anyone."}
+                        ? "يبحث LWA تلقائيًا عن متعلم مناسب لك. لا تحتاج إلى اختيار أي شخص."
+                        : "LWA is automatically looking for a suitable learner. You don't need to choose anyone."}
                     </p>
                   </div>
                 </div>
@@ -716,7 +716,7 @@ export default function Dashboard({
             <div className="rounded-[2rem] border border-gray-200 bg-white p-6 shadow-[0_20px_70px_rgba(16,35,31,0.08)] md:p-8">
               <div className="flex items-center justify-between">
                 <span className="text-sm font-bold uppercase tracking-[0.16em] text-gray-400">
-                  LangTalk
+                  LWA
                 </span>
 
                 <span
@@ -882,8 +882,8 @@ export default function Dashboard({
             }
             text={
               isArabic
-                ? "LangTalk يبحث عن متعلم مناسب لك تلقائيًا."
-                : "LangTalk automatically finds a suitable learner for you."
+                ? "LWA يبحث عن متعلم مناسب لك تلقائيًا."
+                : "LWA automatically finds a suitable learner for you."
             }
           />
 
@@ -939,8 +939,8 @@ export default function Dashboard({
 
               <p className="mt-3 max-w-2xl leading-7 text-gray-500">
                 {isArabic
-                  ? "سيستخدم LangTalk هذه البيانات للعثور على متعلم مناسب لجلسة المحادثة."
-                  : "LangTalk uses these details to find a suitable learner for your conversation session."}
+                  ? "سيستخدم LWA هذه البيانات للعثور على متعلم مناسب لجلسة المحادثة."
+                  : "LWA uses these details to find a suitable learner for your conversation session."}
               </p>
             </div>
 

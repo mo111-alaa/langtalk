@@ -87,7 +87,7 @@ export async function POST(request: Request) {
           properties: {
             room_name: roomName,
             user_name:
-              userName || "LangTalk User",
+              userName || "LWA User",
             user_id: user.id,
             exp: expiration,
             is_owner: false,

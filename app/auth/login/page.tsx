@@ -134,7 +134,7 @@ export default function LoginPage() {
         {/* Header */}
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
-            LangTalk
+            LWA
           </h1>
 
           <p className="mt-2 text-gray-500 dark:text-gray-400">

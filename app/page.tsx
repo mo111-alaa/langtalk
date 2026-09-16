@@ -93,13 +93,13 @@ const translations: Record<
     badge: "تحدث بحرية • 7 دقائق • شخص حقيقي",
     heroTitle: "تحدث باللغة التي تتعلمها بثقة.",
     heroDescription:
-      "LangTalk يوصلك تلقائيًا بمتعلم آخر للغة نفسها والمستوى نفسه في مكالمة فيديو مباشرة لمدة 7 دقائق.",
+      "LWA يوصلك تلقائيًا بمتعلم آخر للغة نفسها والمستوى نفسه في مكالمة فيديو مباشرة لمدة 7 دقائق.",
     startSpeaking: "ابدأ التحدث الآن",
     learnMore: "اكتشف المميزات",
 
     featuresTitle: "كل ما تحتاجه لممارسة اللغة",
     featuresDescription:
-      "صممنا LangTalk لتتوقف عن دراسة اللغة فقط وتبدأ باستخدامها فعليًا.",
+      "صممنا LWA لتتوقف عن دراسة اللغة فقط وتبدأ باستخدامها فعليًا.",
 
     videoTitle: "مكالمات فيديو مباشرة",
     videoDescription:
@@ -107,7 +107,7 @@ const translations: Record<
 
     matchingTitle: "مطابقة تلقائية",
     matchingDescription:
-      "لا تحتاج إلى البحث عن شريك. LangTalk يبحث تلقائيًا عن شخص مناسب لك.",
+      "لا تحتاج إلى البحث عن شريك. LWA يبحث تلقائيًا عن شخص مناسب لك.",
 
     sevenTitle: "جلسة مدتها 7 دقائق",
     sevenDescription:
@@ -121,7 +121,7 @@ const translations: Record<
     levelsDescription:
       "نطابقك مع شخص يتعلم اللغة نفسها وفي المستوى نفسه للحصول على محادثة أفضل.",
 
-    howTitle: "كيف يعمل LangTalk؟",
+    howTitle: "كيف يعمل LWA؟",
     howDescription:
       "ابدأ محادثتك في خطوات بسيطة.",
 
@@ -131,7 +131,7 @@ const translations: Record<
 
     step2Title: "ابدأ البحث",
     step2Description:
-      "اضغط على Start Practice وسيبدأ LangTalk في البحث تلقائيًا.",
+      "اضغط على Start Practice وسيبدأ LWA في البحث تلقائيًا.",
 
     step3Title: "اعثر على شريك",
     step3Description:
@@ -145,7 +145,7 @@ const translations: Record<
 
     faq1Question: "هل أحتاج إلى اختيار شريك بنفسي؟",
     faq1Answer:
-      "لا. LangTalk يختار شريكًا مناسبًا لك تلقائيًا وبشكل عشوائي من المستخدمين المتاحين.",
+      "لا. LWA يختار شريكًا مناسبًا لك تلقائيًا وبشكل عشوائي من المستخدمين المتاحين.",
 
     faq2Question: "كم تستمر المكالمة؟",
     faq2Answer:
@@ -153,7 +153,7 @@ const translations: Record<
 
     faq3Question: "هل المكالمة بالصوت فقط؟",
     faq3Answer:
-      "لا. LangTalk يعتمد على مكالمات الفيديو والصوت، مع إمكانية كتم الميكروفون.",
+      "لا. LWA يعتمد على مكالمات الفيديو والصوت، مع إمكانية كتم الميكروفون.",
 
     faq4Question: "ما اللغات المتاحة؟",
     faq4Answer:
@@ -165,11 +165,11 @@ const translations: Record<
 
     complaintsTitle: "الشكاوى والتواصل",
     complaintsDescription:
-      "إذا واجهت مشكلة أو لديك اقتراح لتحسين LangTalk، يمكنك التواصل معنا عبر البريد الإلكتروني.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+      "إذا واجهت مشكلة أو لديك اقتراح لتحسين LWA، يمكنك التواصل معنا عبر البريد الإلكتروني.",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — تحدث بحرية مع متعلمين من جميع أنحاء العالم.",
+      "LWA — تحدث بحرية مع متعلمين من جميع أنحاء العالم.",
     footerRights: "جميع الحقوق محفوظة.",
   },
 
@@ -184,13 +184,13 @@ const translations: Record<
     badge: "Speak freely • 7 minutes • Real people",
     heroTitle: "Speak the language you're learning with confidence.",
     heroDescription:
-      "LangTalk automatically connects you with another learner of the same language and level for a live 7-minute video conversation.",
+      "LWA automatically connects you with another learner of the same language and level for a live 7-minute video conversation.",
     startSpeaking: "Start speaking",
     learnMore: "Explore features",
 
     featuresTitle: "Everything you need to practice",
     featuresDescription:
-      "LangTalk is designed to help you stop only studying a language and start actually using it.",
+      "LWA is designed to help you stop only studying a language and start actually using it.",
 
     videoTitle: "Live video calls",
     videoDescription:
@@ -198,7 +198,7 @@ const translations: Record<
 
     matchingTitle: "Automatic matching",
     matchingDescription:
-      "You don't need to search for a partner. LangTalk finds a suitable person automatically.",
+      "You don't need to search for a partner. LWA finds a suitable person automatically.",
 
     sevenTitle: "7-minute sessions",
     sevenDescription:
@@ -212,7 +212,7 @@ const translations: Record<
     levelsDescription:
       "We match you with someone learning the same language at the same level.",
 
-    howTitle: "How does LangTalk work?",
+    howTitle: "How does LWA work?",
     howDescription:
       "Start your conversation in just a few simple steps.",
 
@@ -222,7 +222,7 @@ const translations: Record<
 
     step2Title: "Start searching",
     step2Description:
-      "Press Start Practice and LangTalk will automatically start looking for a partner.",
+      "Press Start Practice and LWA will automatically start looking for a partner.",
 
     step3Title: "Meet a partner",
     step3Description:
@@ -236,7 +236,7 @@ const translations: Record<
 
     faq1Question: "Do I choose my partner?",
     faq1Answer:
-      "No. LangTalk automatically and randomly chooses a suitable available partner for you.",
+      "No. LWA automatically and randomly chooses a suitable available partner for you.",
 
     faq2Question: "How long is a call?",
     faq2Answer:
@@ -244,7 +244,7 @@ const translations: Record<
 
     faq3Question: "Are calls audio only?",
     faq3Answer:
-      "No. LangTalk uses video and audio calls, with the option to mute your microphone.",
+      "No. LWA uses video and audio calls, with the option to mute your microphone.",
 
     faq4Question: "Which languages are supported?",
     faq4Answer:
@@ -256,11 +256,11 @@ const translations: Record<
 
     complaintsTitle: "Complaints & Contact",
     complaintsDescription:
-      "If you experience a problem or have a suggestion for improving LangTalk, contact us by email.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+      "If you experience a problem or have a suggestion for improving LWA, contact us by email.",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — Speak freely with language learners around the world.",
+      "LWA — Speak freely with language learners around the world.",
     footerRights: "All rights reserved.",
   },
 
@@ -275,13 +275,13 @@ const translations: Record<
     badge: "Habla libremente • 7 minutos • Personas reales",
     heroTitle: "Habla el idioma que estás aprendiendo con confianza.",
     heroDescription:
-      "LangTalk te conecta automáticamente con otro estudiante del mismo idioma y nivel durante una conversación de vídeo de 7 minutos.",
+      "LWA te conecta automáticamente con otro estudiante del mismo idioma y nivel durante una conversación de vídeo de 7 minutos.",
     startSpeaking: "Empezar a hablar",
     learnMore: "Ver funciones",
 
     featuresTitle: "Todo lo que necesitas para practicar",
     featuresDescription:
-      "LangTalk está diseñado para ayudarte a dejar de estudiar solamente y empezar a usar el idioma.",
+      "LWA está diseñado para ayudarte a dejar de estudiar solamente y empezar a usar el idioma.",
 
     videoTitle: "Videollamadas en directo",
     videoDescription:
@@ -289,7 +289,7 @@ const translations: Record<
 
     matchingTitle: "Emparejamiento automático",
     matchingDescription:
-      "No necesitas buscar un compañero. LangTalk encuentra uno automáticamente.",
+      "No necesitas buscar un compañero. LWA encuentra uno automáticamente.",
 
     sevenTitle: "Sesiones de 7 minutos",
     sevenDescription:
@@ -303,7 +303,7 @@ const translations: Record<
     levelsDescription:
       "Te conectamos con alguien que aprende el mismo idioma y tiene el mismo nivel.",
 
-    howTitle: "¿Cómo funciona LangTalk?",
+    howTitle: "¿Cómo funciona LWA?",
     howDescription:
       "Comienza tu conversación en unos simples pasos.",
 
@@ -313,7 +313,7 @@ const translations: Record<
 
     step2Title: "Comienza la búsqueda",
     step2Description:
-      "Pulsa Start Practice y LangTalk buscará automáticamente.",
+      "Pulsa Start Practice y LWA buscará automáticamente.",
 
     step3Title: "Encuentra un compañero",
     step3Description:
@@ -327,7 +327,7 @@ const translations: Record<
 
     faq1Question: "¿Tengo que elegir a mi compañero?",
     faq1Answer:
-      "No. LangTalk elige automáticamente un compañero disponible adecuado.",
+      "No. LWA elige automáticamente un compañero disponible adecuado.",
 
     faq2Question: "¿Cuánto dura la llamada?",
     faq2Answer:
@@ -335,7 +335,7 @@ const translations: Record<
 
     faq3Question: "¿Las llamadas son solo de audio?",
     faq3Answer:
-      "No. LangTalk utiliza vídeo y audio, con opción para silenciar el micrófono.",
+      "No. LWA utiliza vídeo y audio, con opción para silenciar el micrófono.",
 
     faq4Question: "¿Qué idiomas están disponibles?",
     faq4Answer:
@@ -348,10 +348,10 @@ const translations: Record<
     complaintsTitle: "Quejas y contacto",
     complaintsDescription:
       "Si tienes un problema o una sugerencia, puedes contactarnos por correo electrónico.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — Habla libremente con estudiantes de idiomas de todo el mundo.",
+      "LWA — Habla libremente con estudiantes de idiomas de todo el mundo.",
     footerRights: "Todos los derechos reservados.",
   },
 
@@ -366,13 +366,13 @@ const translations: Record<
     badge: "Frei sprechen • 7 Minuten • Echte Menschen",
     heroTitle: "Sprich die Sprache, die du lernst, mit mehr Selbstvertrauen.",
     heroDescription:
-      "LangTalk verbindet dich automatisch mit einem anderen Lernenden derselben Sprache und desselben Niveaus für ein 7-minütiges Videogespräch.",
+      "LWA verbindet dich automatisch mit einem anderen Lernenden derselben Sprache und desselben Niveaus für ein 7-minütiges Videogespräch.",
     startSpeaking: "Jetzt sprechen",
     learnMore: "Funktionen entdecken",
 
     featuresTitle: "Alles, was du zum Üben brauchst",
     featuresDescription:
-      "LangTalk hilft dir, die Sprache nicht nur zu lernen, sondern sie wirklich zu benutzen.",
+      "LWA hilft dir, die Sprache nicht nur zu lernen, sondern sie wirklich zu benutzen.",
 
     videoTitle: "Live-Videoanrufe",
     videoDescription:
@@ -380,7 +380,7 @@ const translations: Record<
 
     matchingTitle: "Automatische Suche",
     matchingDescription:
-      "Du musst keinen Partner suchen. LangTalk findet automatisch einen passenden Lernenden.",
+      "Du musst keinen Partner suchen. LWA findet automatisch einen passenden Lernenden.",
 
     sevenTitle: "7-Minuten-Sitzungen",
     sevenDescription:
@@ -394,7 +394,7 @@ const translations: Record<
     levelsDescription:
       "Du wirst mit jemandem verbunden, der dieselbe Sprache auf demselben Niveau lernt.",
 
-    howTitle: "Wie funktioniert LangTalk?",
+    howTitle: "Wie funktioniert LWA?",
     howDescription:
       "Starte dein Gespräch in wenigen einfachen Schritten.",
 
@@ -404,7 +404,7 @@ const translations: Record<
 
     step2Title: "Suche starten",
     step2Description:
-      "Drücke auf Start Practice und LangTalk beginnt automatisch mit der Suche.",
+      "Drücke auf Start Practice und LWA beginnt automatisch mit der Suche.",
 
     step3Title: "Partner finden",
     step3Description:
@@ -418,7 +418,7 @@ const translations: Record<
 
     faq1Question: "Wähle ich meinen Partner selbst?",
     faq1Answer:
-      "Nein. LangTalk wählt automatisch und zufällig einen passenden verfügbaren Partner.",
+      "Nein. LWA wählt automatisch und zufällig einen passenden verfügbaren Partner.",
 
     faq2Question: "Wie lange dauert ein Anruf?",
     faq2Answer:
@@ -426,7 +426,7 @@ const translations: Record<
 
     faq3Question: "Sind die Anrufe nur Audio?",
     faq3Answer:
-      "Nein. LangTalk verwendet Video und Audio. Das Mikrofon kann stummgeschaltet werden.",
+      "Nein. LWA verwendet Video und Audio. Das Mikrofon kann stummgeschaltet werden.",
 
     faq4Question: "Welche Sprachen werden unterstützt?",
     faq4Answer:
@@ -439,10 +439,10 @@ const translations: Record<
     complaintsTitle: "Beschwerden & Kontakt",
     complaintsDescription:
       "Bei Problemen oder Verbesserungsvorschlägen kannst du uns per E-Mail kontaktieren.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — Sprich frei mit Sprachlernenden aus der ganzen Welt.",
+      "LWA — Sprich frei mit Sprachlernenden aus der ganzen Welt.",
     footerRights: "Alle Rechte vorbehalten.",
   },
 
@@ -457,13 +457,13 @@ const translations: Record<
     badge: "Parlez librement • 7 minutes • De vraies personnes",
     heroTitle: "Parlez la langue que vous apprenez avec confiance.",
     heroDescription:
-      "LangTalk vous connecte automatiquement avec un autre apprenant du même niveau pour une conversation vidéo de 7 minutes.",
+      "LWA vous connecte automatiquement avec un autre apprenant du même niveau pour une conversation vidéo de 7 minutes.",
     startSpeaking: "Commencer à parler",
     learnMore: "Découvrir les fonctionnalités",
 
     featuresTitle: "Tout ce dont vous avez besoin pour pratiquer",
     featuresDescription:
-      "LangTalk vous aide à arrêter d'étudier seulement et à commencer à utiliser la langue.",
+      "LWA vous aide à arrêter d'étudier seulement et à commencer à utiliser la langue.",
 
     videoTitle: "Appels vidéo en direct",
     videoDescription:
@@ -471,7 +471,7 @@ const translations: Record<
 
     matchingTitle: "Mise en relation automatique",
     matchingDescription:
-      "Pas besoin de chercher un partenaire. LangTalk en trouve un automatiquement.",
+      "Pas besoin de chercher un partenaire. LWA en trouve un automatiquement.",
 
     sevenTitle: "Sessions de 7 minutes",
     sevenDescription:
@@ -485,7 +485,7 @@ const translations: Record<
     levelsDescription:
       "Vous êtes mis en relation avec une personne qui apprend la même langue au même niveau.",
 
-    howTitle: "Comment fonctionne LangTalk ?",
+    howTitle: "Comment fonctionne LWA ?",
     howDescription:
       "Commencez votre conversation en quelques étapes simples.",
 
@@ -495,7 +495,7 @@ const translations: Record<
 
     step2Title: "Lancez la recherche",
     step2Description:
-      "Appuyez sur Start Practice et LangTalk commencera automatiquement la recherche.",
+      "Appuyez sur Start Practice et LWA commencera automatiquement la recherche.",
 
     step3Title: "Trouvez un partenaire",
     step3Description:
@@ -509,7 +509,7 @@ const translations: Record<
 
     faq1Question: "Dois-je choisir mon partenaire ?",
     faq1Answer:
-      "Non. LangTalk choisit automatiquement et aléatoirement un partenaire adapté.",
+      "Non. LWA choisit automatiquement et aléatoirement un partenaire adapté.",
 
     faq2Question: "Combien de temps dure l'appel ?",
     faq2Answer:
@@ -517,7 +517,7 @@ const translations: Record<
 
     faq3Question: "Les appels sont-ils uniquement audio ?",
     faq3Answer:
-      "Non. LangTalk utilise la vidéo et l'audio, avec la possibilité de couper le microphone.",
+      "Non. LWA utilise la vidéo et l'audio, avec la possibilité de couper le microphone.",
 
     faq4Question: "Quelles langues sont disponibles ?",
     faq4Answer:
@@ -530,10 +530,10 @@ const translations: Record<
     complaintsTitle: "Réclamations & Contact",
     complaintsDescription:
       "Pour signaler un problème ou proposer une amélioration, contactez-nous par e-mail.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — Parlez librement avec des apprenants du monde entier.",
+      "LWA — Parlez librement avec des apprenants du monde entier.",
     footerRights: "Tous droits réservés.",
   },
 
@@ -548,13 +548,13 @@ const translations: Record<
     badge: "自由に話そう • 7分 • 本物の人と",
     heroTitle: "学んでいる言語を、自信を持って話そう。",
     heroDescription:
-      "LangTalkは、同じ言語とレベルを学んでいるユーザーと自動的につなぎ、7分間のビデオ会話を行います。",
+      "LWAは、同じ言語とレベルを学んでいるユーザーと自動的につなぎ、7分間のビデオ会話を行います。",
     startSpeaking: "今すぐ話す",
     learnMore: "機能を見る",
 
     featuresTitle: "練習に必要なすべて",
     featuresDescription:
-      "LangTalkは、言語を勉強するだけでなく、実際に使うために作られています。",
+      "LWAは、言語を勉強するだけでなく、実際に使うために作られています。",
 
     videoTitle: "ライブビデオ通話",
     videoDescription:
@@ -562,7 +562,7 @@ const translations: Record<
 
     matchingTitle: "自動マッチング",
     matchingDescription:
-      "相手を探す必要はありません。LangTalkが自動的に相手を見つけます。",
+      "相手を探す必要はありません。LWAが自動的に相手を見つけます。",
 
     sevenTitle: "7分間のセッション",
     sevenDescription:
@@ -576,7 +576,7 @@ const translations: Record<
     levelsDescription:
       "同じ言語を同じレベルで学んでいる人とマッチします。",
 
-    howTitle: "LangTalkの使い方",
+    howTitle: "LWAの使い方",
     howDescription:
       "簡単なステップで会話を始められます。",
 
@@ -600,7 +600,7 @@ const translations: Record<
 
     faq1Question: "自分で相手を選べますか？",
     faq1Answer:
-      "いいえ。LangTalkが条件に合う相手を自動的かつランダムに選びます。",
+      "いいえ。LWAが条件に合う相手を自動的かつランダムに選びます。",
 
     faq2Question: "通話はどのくらいですか？",
     faq2Answer:
@@ -621,10 +621,10 @@ const translations: Record<
     complaintsTitle: "お問い合わせ・苦情",
     complaintsDescription:
       "問題や改善の提案がある場合は、メールでお問い合わせください。",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — 世界中の語学学習者と自由に話そう。",
+      "LWA — 世界中の語学学習者と自由に話そう。",
     footerRights: "All rights reserved.",
   },
 
@@ -639,13 +639,13 @@ const translations: Record<
     badge: "자유롭게 말하기 • 7분 • 실제 사람과",
     heroTitle: "배우고 있는 언어를 자신 있게 말해보세요.",
     heroDescription:
-      "LangTalk는 같은 언어와 레벨을 배우는 다른 학습자와 자동으로 연결하여 7분 동안 영상 대화를 할 수 있게 합니다.",
+      "LWA는 같은 언어와 레벨을 배우는 다른 학습자와 자동으로 연결하여 7분 동안 영상 대화를 할 수 있게 합니다.",
     startSpeaking: "지금 말하기",
     learnMore: "기능 알아보기",
 
     featuresTitle: "연습에 필요한 모든 것",
     featuresDescription:
-      "LangTalk는 언어를 공부하는 것에서 실제로 사용하는 것으로 나아갈 수 있도록 만들어졌습니다.",
+      "LWA는 언어를 공부하는 것에서 실제로 사용하는 것으로 나아갈 수 있도록 만들어졌습니다.",
 
     videoTitle: "실시간 영상 통화",
     videoDescription:
@@ -653,7 +653,7 @@ const translations: Record<
 
     matchingTitle: "자동 매칭",
     matchingDescription:
-      "파트너를 직접 찾을 필요가 없습니다. LangTalk가 자동으로 찾아줍니다.",
+      "파트너를 직접 찾을 필요가 없습니다. LWA가 자동으로 찾아줍니다.",
 
     sevenTitle: "7분 세션",
     sevenDescription:
@@ -667,7 +667,7 @@ const translations: Record<
     levelsDescription:
       "같은 언어를 같은 레벨로 배우는 사람과 연결됩니다.",
 
-    howTitle: "LangTalk는 어떻게 작동하나요?",
+    howTitle: "LWA는 어떻게 작동하나요?",
     howDescription:
       "몇 가지 간단한 단계로 대화를 시작하세요.",
 
@@ -677,7 +677,7 @@ const translations: Record<
 
     step2Title: "검색 시작",
     step2Description:
-      "Start Practice를 누르면 LangTalk가 자동으로 파트너를 찾습니다.",
+      "Start Practice를 누르면 LWA가 자동으로 파트너를 찾습니다.",
 
     step3Title: "파트너 만나기",
     step3Description:
@@ -691,7 +691,7 @@ const translations: Record<
 
     faq1Question: "파트너를 직접 선택하나요?",
     faq1Answer:
-      "아니요. LangTalk가 조건에 맞는 파트너를 자동으로 무작위 선택합니다.",
+      "아니요. LWA가 조건에 맞는 파트너를 자동으로 무작위 선택합니다.",
 
     faq2Question: "통화는 얼마나 오래 하나요?",
     faq2Answer:
@@ -712,10 +712,10 @@ const translations: Record<
     complaintsTitle: "문의 및 불만",
     complaintsDescription:
       "문제가 있거나 개선 사항을 제안하고 싶다면 이메일로 문의해주세요.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — 전 세계의 언어 학습자와 자유롭게 이야기하세요.",
+      "LWA — 전 세계의 언어 학습자와 자유롭게 이야기하세요.",
     footerRights: "All rights reserved.",
   },
 
@@ -730,13 +730,13 @@ const translations: Record<
     badge: "Говорите свободно • 7 минут • Реальные люди",
     heroTitle: "Говорите на изучаемом языке уверенно.",
     heroDescription:
-      "LangTalk автоматически соединяет вас с другим изучающим тот же язык на том же уровне для 7-минутного видеодиалога.",
+      "LWA автоматически соединяет вас с другим изучающим тот же язык на том же уровне для 7-минутного видеодиалога.",
     startSpeaking: "Начать говорить",
     learnMore: "Посмотреть возможности",
 
     featuresTitle: "Всё необходимое для практики",
     featuresDescription:
-      "LangTalk помогает не только изучать язык, но и использовать его в реальном разговоре.",
+      "LWA помогает не только изучать язык, но и использовать его в реальном разговоре.",
 
     videoTitle: "Видеозвонки в реальном времени",
     videoDescription:
@@ -744,7 +744,7 @@ const translations: Record<
 
     matchingTitle: "Автоматический подбор",
     matchingDescription:
-      "Не нужно искать партнёра. LangTalk автоматически найдёт подходящего человека.",
+      "Не нужно искать партнёра. LWA автоматически найдёт подходящего человека.",
 
     sevenTitle: "Сессии по 7 минут",
     sevenDescription:
@@ -758,7 +758,7 @@ const translations: Record<
     levelsDescription:
       "Вы будете соединены с человеком, который изучает тот же язык на том же уровне.",
 
-    howTitle: "Как работает LangTalk?",
+    howTitle: "Как работает LWA?",
     howDescription:
       "Начните разговор всего за несколько простых шагов.",
 
@@ -768,7 +768,7 @@ const translations: Record<
 
     step2Title: "Начните поиск",
     step2Description:
-      "Нажмите Start Practice, и LangTalk автоматически начнёт поиск.",
+      "Нажмите Start Practice, и LWA автоматически начнёт поиск.",
 
     step3Title: "Найдите партнёра",
     step3Description:
@@ -782,7 +782,7 @@ const translations: Record<
 
     faq1Question: "Я выбираю партнёра сам?",
     faq1Answer:
-      "Нет. LangTalk автоматически и случайным образом выбирает подходящего доступного партнёра.",
+      "Нет. LWA автоматически и случайным образом выбирает подходящего доступного партнёра.",
 
     faq2Question: "Сколько длится звонок?",
     faq2Answer:
@@ -790,7 +790,7 @@ const translations: Record<
 
     faq3Question: "Звонки только аудио?",
     faq3Answer:
-      "Нет. LangTalk использует видео и аудио. Микрофон можно отключить.",
+      "Нет. LWA использует видео и аудио. Микрофон можно отключить.",
 
     faq4Question: "Какие языки поддерживаются?",
     faq4Answer:
@@ -803,10 +803,10 @@ const translations: Record<
     complaintsTitle: "Жалобы и контакты",
     complaintsDescription:
       "Если вы столкнулись с проблемой или хотите предложить улучшение, свяжитесь с нами по электронной почте.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — свободное общение с изучающими языки со всего мира.",
+      "LWA — свободное общение с изучающими языки со всего мира.",
     footerRights: "Все права защищены.",
   },
 
@@ -821,13 +821,13 @@ const translations: Record<
     badge: "Özgürce konuş • 7 dakika • Gerçek insanlar",
     heroTitle: "Öğrendiğin dili güvenle konuş.",
     heroDescription:
-      "LangTalk, seni aynı dili ve aynı seviyeyi öğrenen başka bir öğrenciyle 7 dakikalık canlı görüntülü konuşma için otomatik olarak eşleştirir.",
+      "LWA, seni aynı dili ve aynı seviyeyi öğrenen başka bir öğrenciyle 7 dakikalık canlı görüntülü konuşma için otomatik olarak eşleştirir.",
     startSpeaking: "Konuşmaya başla",
     learnMore: "Özellikleri keşfet",
 
     featuresTitle: "Pratik yapmak için ihtiyacın olan her şey",
     featuresDescription:
-      "LangTalk, sadece dil çalışmayı bırakıp dili gerçekten kullanmaya başlamana yardımcı olmak için tasarlandı.",
+      "LWA, sadece dil çalışmayı bırakıp dili gerçekten kullanmaya başlamana yardımcı olmak için tasarlandı.",
 
     videoTitle: "Canlı görüntülü aramalar",
     videoDescription:
@@ -835,7 +835,7 @@ const translations: Record<
 
     matchingTitle: "Otomatik eşleştirme",
     matchingDescription:
-      "Bir partner aramana gerek yok. LangTalk sana uygun bir kişiyi otomatik olarak bulur.",
+      "Bir partner aramana gerek yok. LWA sana uygun bir kişiyi otomatik olarak bulur.",
 
     sevenTitle: "7 dakikalık oturumlar",
     sevenDescription:
@@ -849,7 +849,7 @@ const translations: Record<
     levelsDescription:
       "Seni aynı dili aynı seviyede öğrenen biriyle eşleştiriyoruz.",
 
-    howTitle: "LangTalk nasıl çalışır?",
+    howTitle: "LWA nasıl çalışır?",
     howDescription:
       "Konuşmana birkaç basit adımda başla.",
 
@@ -859,7 +859,7 @@ const translations: Record<
 
     step2Title: "Aramayı başlat",
     step2Description:
-      "Start Practice düğmesine bas ve LangTalk otomatik olarak bir partner aramaya başlasın.",
+      "Start Practice düğmesine bas ve LWA otomatik olarak bir partner aramaya başlasın.",
 
     step3Title: "Bir partner bul",
     step3Description:
@@ -873,7 +873,7 @@ const translations: Record<
 
     faq1Question: "Partnerimi kendim mi seçiyorum?",
     faq1Answer:
-      "Hayır. LangTalk uygun ve müsait bir partneri otomatik ve rastgele seçer.",
+      "Hayır. LWA uygun ve müsait bir partneri otomatik ve rastgele seçer.",
 
     faq2Question: "Arama ne kadar sürer?",
     faq2Answer:
@@ -881,7 +881,7 @@ const translations: Record<
 
     faq3Question: "Aramalar sadece sesli mi?",
     faq3Answer:
-      "Hayır. LangTalk görüntülü ve sesli aramalar kullanır. Mikrofonunuzu sessize alabilirsiniz.",
+      "Hayır. LWA görüntülü ve sesli aramalar kullanır. Mikrofonunuzu sessize alabilirsiniz.",
 
     faq4Question: "Hangi diller destekleniyor?",
     faq4Answer:
@@ -893,11 +893,11 @@ const translations: Record<
 
     complaintsTitle: "Şikayetler ve İletişim",
     complaintsDescription:
-      "Bir sorun yaşarsanız veya LangTalk'ı geliştirmek için bir öneriniz varsa, bize e-posta yoluyla ulaşabilirsiniz.",
-    complaintsEmail: "langtalklanguage@gmail.com",
+      "Bir sorun yaşarsanız veya LWA'ı geliştirmek için bir öneriniz varsa, bize e-posta yoluyla ulaşabilirsiniz.",
+    complaintsEmail: "LWAlanguage@gmail.com",
 
     footerDescription:
-      "LangTalk — Dünyanın dört bir yanındaki dil öğrencileriyle özgürce konuş.",
+      "LWA — Dünyanın dört bir yanındaki dil öğrencileriyle özgürce konuş.",
     footerRights: "Tüm hakları saklıdır.",
   },
 };
@@ -966,7 +966,7 @@ export default async function HomePage() {
             href="/"
             className="text-2xl font-black tracking-tight"
           >
-            LangTalk<span className="text-blue-600">.</span>
+            LWA<span className="text-blue-600">.</span>
           </Link>
 
           <nav className="hidden items-center gap-8 md:flex">
@@ -1086,7 +1086,7 @@ export default async function HomePage() {
 
                 <div className="mb-4 flex items-center justify-between px-3 pt-2">
                   <span className="font-bold text-white">
-                    LangTalk
+                    LWA
                   </span>
 
                   <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-white/70">
@@ -1150,7 +1150,7 @@ export default async function HomePage() {
 
           <div className="max-w-2xl">
             <p className="text-sm font-bold uppercase tracking-widest text-blue-600">
-              LangTalk
+              LWA
             </p>
 
             <h2 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">
@@ -1421,7 +1421,7 @@ export default async function HomePage() {
 
           <div>
             <div className="text-xl font-black">
-              LangTalk<span className="text-blue-500">.</span>
+              LWA<span className="text-blue-500">.</span>
             </div>
 
             <p className="mt-2 max-w-md text-sm text-white/50">
@@ -1430,7 +1430,7 @@ export default async function HomePage() {
           </div>
 
           <div className="text-sm text-white/40">
-            © {new Date().getFullYear()} LangTalk.{" "}
+            © {new Date().getFullYear()} LWA.{" "}
             {t.footerRights}
           </div>
 

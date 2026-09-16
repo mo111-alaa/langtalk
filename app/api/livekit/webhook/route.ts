@@ -135,7 +135,7 @@ export async function POST(
     }
 
     console.log(
-      `Cleaned LangTalk room: ${roomName}`
+      `Cleaned LWA room: ${roomName}`
     );
 
     return NextResponse.json({

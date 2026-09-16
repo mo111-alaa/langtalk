@@ -4,9 +4,8 @@ import "./globals.css";
 import { LocalizationProvider } from "@/components/ui/LocalizationProvider";
 
 export const metadata: Metadata = {
-  title: "LangTalk",
-  description: "Practice languages with real people",
-};
+  title: "LWA",
+description: "Practice languages with real people on LWA",};
 
 export default function RootLayout({
   children,

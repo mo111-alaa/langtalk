@@ -55,7 +55,7 @@ export async function POST(request: Request) {
 
     /*
      * =====================================================
-     * 🚀 LANGTALK LAUNCH CONTROL
+     * 🚀 LWA LAUNCH CONTROL
      * =====================================================
      *
      * قبل 24/9:
@@ -71,8 +71,8 @@ export async function POST(request: Request) {
       return NextResponse.json(
         {
           error:
-            "LangTalk has not launched yet.",
-          code: "LANGTALK_NOT_LAUNCHED",
+            "LWA has not launched yet.",
+          code: "LWA_NOT_LAUNCHED",
           launchDate: "2026-09-24",
         },
         { status: 403 }
