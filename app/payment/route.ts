@@ -426,8 +426,8 @@ export async function POST(
             special_reference:
               subscription.id,
 
-            notification_url:
-              `https://hooks.paymob.com/b0b30e73-fe7b-451e-87f7-9ecb4070edf9`,
+           notification_url:
+  `${appUrl}/payment/webhook`,
 
             redirection_url:
               `${appUrl}/premium?payment=return`,
