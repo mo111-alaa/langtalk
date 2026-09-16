@@ -28,6 +28,7 @@ type PaymobCallback = {
 export async function POST(
   request: Request
 ) {
+  console.log("🔥 PAYMOB WEBHOOK RECEIVED");
   try {
     const body =
       (await request.json()) as PaymobCallback;
