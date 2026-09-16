@@ -426,8 +426,8 @@ export async function POST(
             special_reference:
               subscription.id,
 
-           notification_url:
-  `${appUrl}/payment/webhook`,
+            notification_url:
+              `${appUrl}/payment/webhook`,
 
             redirection_url:
               `${appUrl}/premium?payment=return`,
