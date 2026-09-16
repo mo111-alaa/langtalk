@@ -1,51 +1,101 @@
 import { NextResponse } from "next/server";
+import crypto from "crypto";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 type PaymobCallback = {
   type?: string;
+  hmac?: string;
 
   obj?: {
     id?: number;
-
-    success?: boolean;
-
     pending?: boolean;
-
     amount_cents?: number;
-
+    success?: boolean;
+    is_auth?: boolean;
+    is_capture?: boolean;
+    is_standalone_payment?: boolean;
+    is_voided?: boolean;
+    is_refunded?: boolean;
+    is_3d_secure?: boolean;
+    integration_id?: number;
+    created_at?: string;
     currency?: string;
-
+    error_occured?: boolean;
+    has_parent_transaction?: boolean;
     order?: {
       id?: number;
     };
-
-    is_refunded?: boolean;
-
-    is_voided?: boolean;
+    owner?: number;
+    source_data?: {
+      pan?: string;
+      type?: string;
+      sub_type?: string;
+    };
   };
 };
 
-export async function POST(
-  request: Request
-) {
+function calculatePaymobHmac(transaction: NonNullable<PaymobCallback["obj"]>) {
+  const secret = process.env.PAYMOB_HMAC_SECRET;
+
+  if (!secret) {
+    throw new Error("PAYMOB_HMAC_SECRET is not configured.");
+  }
+
+  /*
+   * Paymob transaction HMAC fields.
+   * Values are concatenated in the documented order
+   * and hashed using HMAC-SHA512.
+   */
+  const values = [
+    transaction.amount_cents,
+    transaction.created_at,
+    transaction.currency,
+    transaction.error_occured,
+    transaction.has_parent_transaction,
+    transaction.id,
+    transaction.integration_id,
+    transaction.is_3d_secure,
+    transaction.is_auth,
+    transaction.is_capture,
+    transaction.is_refunded,
+    transaction.is_standalone_payment,
+    transaction.is_voided,
+    transaction.order?.id,
+    transaction.owner,
+    transaction.pending,
+    transaction.source_data?.pan,
+    transaction.source_data?.sub_type,
+    transaction.source_data?.type,
+    transaction.success,
+  ];
+
+  const concatenated = values
+    .map((value) => String(value ?? ""))
+    .join("");
+
+  return crypto
+    .createHmac("sha512", secret)
+    .update(concatenated)
+    .digest("hex");
+}
+
+export async function POST(request: Request) {
   console.log("🔥 PAYMOB WEBHOOK RECEIVED");
+
   try {
-    const body =
-      (await request.json()) as PaymobCallback;
+    const body = (await request.json()) as PaymobCallback;
 
     console.log(
       "Paymob webhook received:",
       JSON.stringify(body)
     );
 
-    const transaction =
-      body?.obj;
+    const transaction = body?.obj;
 
     if (!transaction) {
       return NextResponse.json(
         {
-          error:
-            "Invalid Paymob callback.",
+          error: "Invalid Paymob callback.",
         },
         {
           status: 400,
@@ -54,9 +104,66 @@ export async function POST(
     }
 
     /*
-     * Ignore unsuccessful,
-     * pending, refunded or voided
-     * transactions.
+     * Verify Paymob HMAC before trusting
+     * the transaction data.
+     */
+    const receivedHmac =
+      new URL(request.url).searchParams.get("hmac");
+
+    if (!receivedHmac) {
+      console.error(
+        "Paymob HMAC is missing."
+      );
+
+      return NextResponse.json(
+        {
+          error: "Missing Paymob HMAC.",
+        },
+        {
+          status: 401,
+        }
+      );
+    }
+
+    const calculatedHmac =
+      calculatePaymobHmac(transaction);
+
+    const receivedBuffer =
+      Buffer.from(receivedHmac, "utf8");
+
+    const calculatedBuffer =
+      Buffer.from(calculatedHmac, "utf8");
+
+    const hmacValid =
+      receivedBuffer.length ===
+        calculatedBuffer.length &&
+      crypto.timingSafeEqual(
+        receivedBuffer,
+        calculatedBuffer
+      );
+
+    if (!hmacValid) {
+      console.error(
+        "Invalid Paymob HMAC."
+      );
+
+      return NextResponse.json(
+        {
+          error: "Invalid Paymob HMAC.",
+        },
+        {
+          status: 401,
+        }
+      );
+    }
+
+    console.log(
+      "✅ Paymob HMAC verified successfully."
+    );
+
+    /*
+     * Ignore unsuccessful, pending,
+     * refunded or voided transactions.
      */
     if (
       transaction.success !== true ||
@@ -100,9 +207,6 @@ export async function POST(
      * Paymob is an external server.
      * Therefore we MUST NOT use the
      * normal authenticated Supabase client.
-     *
-     * The webhook has no LangTalk
-     * browser session/cookies.
      */
     const supabase =
       createAdminClient();
@@ -113,8 +217,7 @@ export async function POST(
      */
     const {
       data: subscription,
-      error:
-        subscriptionError,
+      error: subscriptionError,
     } =
       await supabase
         .from("subscriptions")
@@ -173,8 +276,7 @@ export async function POST(
      * Don't activate the same subscription twice.
      */
     if (
-      subscription.status ===
-      "active"
+      subscription.status === "active"
     ) {
       console.log(
         "Subscription already active:",
@@ -190,17 +292,13 @@ export async function POST(
     /*
      * Calculate subscription dates.
      */
-    const startedAt =
-      new Date();
+    const startedAt = new Date();
 
     const expiresAt =
-      new Date(
-        startedAt
-      );
+      new Date(startedAt);
 
     if (
-      subscription.plan ===
-      "monthly"
+      subscription.plan === "monthly"
     ) {
       expiresAt.setMonth(
         expiresAt.getMonth() + 1
@@ -215,8 +313,7 @@ export async function POST(
      * Activate subscription.
      */
     const {
-      error:
-        updateSubscriptionError,
+      error: updateSubscriptionError,
     } =
       await supabase
         .from("subscriptions")
@@ -225,9 +322,7 @@ export async function POST(
 
           payment_id:
             transactionId
-              ? String(
-                  transactionId
-                )
+              ? String(transactionId)
               : null,
 
           started_at:
@@ -313,12 +408,9 @@ export async function POST(
 
     return NextResponse.json({
       received: true,
-
       success: true,
-
       subscriptionId:
         subscription.id,
-
       expiresAt:
         expiresAt.toISOString(),
     });
