@@ -501,7 +501,7 @@ export default function CallPage() {
               body: JSON.stringify({
                 roomName: room,
                 userName:
-                  "LangTalk User",
+                  "LWA User",
               }),
             }
           );
@@ -772,7 +772,7 @@ export default function CallPage() {
           </div>
 
           <h1 className="text-3xl font-bold">
-            LangTalk is launching soon
+            LWA is launching soon
           </h1>
 
           <p className="mt-4 text-white/70">
@@ -872,7 +872,7 @@ export default function CallPage() {
 
         <div>
           <h1 className="text-xl font-semibold">
-            LangTalk
+            LWA
           </h1>
 
           <p className="text-sm text-white/60">
