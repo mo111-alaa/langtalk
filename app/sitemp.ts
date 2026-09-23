@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://language-with-anyone.vercel.app',
+      url: 'https://lwa.vercel.app',
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1,

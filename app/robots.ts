@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://language-with-anyone.vercel.app/sitemap.xml',
+    sitemap: 'https://lwa.vercel.app/sitemap.xml',
   }
 }
